@@ -7,9 +7,34 @@ body {
 
 img[alt="search"] {
     float:right;
-    margin-right:
+    background-color: #A6A6A6;
+    padding: 10px 15px;
 }
 img[alt="image"] {
     margin-right: 47px;
     margin-left: 47px;
+}
+h1 {
+    font-size: 52px;
+    font-family: "Terminal Dosis";
+    color:#505050;
+}
+h2 {
+    font-size: 28px;
+    font-family: "Helvetica Neue";
+    color:#606060;
+}
+nav {
+    border-top: solid 1px #A6A6A6;
+    border-bottom: solid 1px #A6A6A6;
+    height: 59px;
+    margin: 25px 0;
+    background-color: #A6A6A6;
+    line-height: 0px;
+    font-family: "Helvetica Neue";
+}
+nav li{
+    display: inline-block;
+    padding: 15px;
+
 }
