@@ -13,7 +13,7 @@ body {
 
 img[alt="search"] {
     float:right;
-    background-color: rgb(232, 226, 226);
+    background-color: #fafafa;
     padding: 10px 15px;
 }
 img[alt="image"] {
@@ -23,6 +23,7 @@ h1 {
     font-size: 52px;
     font-family: "Terminal Dosis";
     color:#606060;
+    margin-top: 50px;
 }
 h2 {
     font-size: 13px;
@@ -30,22 +31,26 @@ h2 {
     color:#A6A6A6;
 }
 nav {
-    border-top: solid 1px #A6A6A6;
-    border-bottom: solid 1px #A6A6A6;
+    border-top: solid 1px #f0f0f0;
+    border-bottom: solid 1px #f0f0f0;
     height: 59px;
     margin: 25px 0;
-    background-color: rgb(232, 226, 226);
+    background-color: #fafafa;
     line-height: 26px;
     font-family: "Helvetica Neue";
+    font-size: 16px;
     color: #606060
 }
 nav li{
+    display: inline-block;
+}
+nav a {
     display: inline-block;
     padding: 15px;
 
 }
 nav > ul > li:first-child {
-    margin-left: 3.7em;
+    margin-left: 1em;
 }
 nav a:link {
     text-decoration: none;
@@ -62,13 +67,14 @@ nav li:hover ul.niveau2 {
 .niveau2 {
     display: none;
     position: absolute;
-    background-color: rgb(232, 226, 226);
+    background-color: #fafafa;
     padding-top: 19px;
     text-align: center;
 }
 .niveau2 li {
     display: block;
     height: 33px;
+    padding: 0 1em;
 }
 
 main h2:first-child {
@@ -87,10 +93,10 @@ main p {
     color: #505050
 }
 main div {
-    border-top: 1px solid #A6A6A6;
-    border-bottom: 1px solid #A6A6A6;
+    border-top: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
     height: 40px;
-    background-color: rgb(232, 226, 226);
+    background-color: #fafafa;
     margin-top: 30px
 }
 footer h2 {
@@ -102,8 +108,8 @@ footer h2 {
 
 }
 footer div{
-    border-top: 1px solid #A6A6A6;
-    background-color: rgb(232, 226, 226);
+    border-top: 1px solid #f0f0f0;
+    background-color: #fafafa;
 
 }
 footer ul {
