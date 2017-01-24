@@ -42,7 +42,15 @@ nav li{
     padding: 15px;
 }
 nav li:nth-child(2):hover{
-    
+
+}
+
+nav li:hover ul.niveau2 {
+    display: block
+}
+
+.niveau2 {
+    display: none;
 }
 
 main h2:first-child {
