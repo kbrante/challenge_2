@@ -1,0 +1,15 @@
+body {
+    width: 994px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("./images/bg.png");
+}
+
+img[alt="search"] {
+    float:right;
+    margin-right:
+}
+img[alt="image"] {
+    margin-right: 47px;
+    margin-left: 47px;
+}
