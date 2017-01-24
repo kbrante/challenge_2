@@ -17,8 +17,7 @@ img[alt="search"] {
     padding: 10px 15px;
 }
 img[alt="image"] {
-    margin-right: 47px;
-    margin-left: 47px;
+
 }
 h1 {
     font-size: 52px;
@@ -53,6 +52,9 @@ nav a:link {
     color:#606060;
 }
 
+nav a:visited {
+    color: #606060;
+}
 nav li:hover ul.niveau2 {
     display: block;
 }
@@ -125,4 +127,7 @@ footer li:first-child {
 footer li {
     font-size: 13px;
 
+}
+header, footer, main{
+    width: 900px;
 }
